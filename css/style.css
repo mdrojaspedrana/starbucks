@@ -303,3 +303,152 @@
     font-size: 25px;
     margin-left: 4px;
 }
+
+@media (min-width: 768px) {
+    .header__container-user-mobile {
+        display: none;
+    }
+
+    .header__container-usuario {
+        display: block;
+   }
+
+    .header__container-usuario svg {
+        color: white;
+        font-size: 30px;
+    }
+
+    .header__nav {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .header__nav-link {
+        display: block;
+        text-decoration: none;
+        color: white;
+        margin-left: 15px;
+        
+    }
+
+    .main__contenedor-logo {
+        display: block;
+    }
+
+    .main__logo {
+        width: 80%;
+    }
+
+    .main__container-texto {
+        width: 50%;
+    }
+
+    .main__contenedor-logo {
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .main {
+        display: flex;
+        padding: 15px 30px 60px;
+    }
+
+    .galeria {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        }
+
+        .galeria__images {
+            width: 30%;
+            margin-top: 0;
+        }
+
+        .contact__form {
+            width: 400px;
+        }
+
+        .cards {
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+
+        .cards__card {
+            width: 40%;
+        }
+
+        .cards__card-btn:hover {
+            background: yellow;
+            color: #fff;
+            border: 1px solid yellow;
+        }
+
+        .footer {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+        }
+}
+
+@media (min-width: 1024px) {
+    .main__logo {
+        width: 350px;
+    }
+
+    .main {
+        display: flex;
+        padding: 15px 100px 60px;
+    }
+
+    .galeria__images {
+        width: 300px;
+        margin-top: 0;
+        margin-left: 25px;
+    }
+
+    .galeria {
+        justify-content: center;
+}
+    .contact__form {
+        width: 800px;
+    }
+.contact__input label {
+    font-size: 20px;
+}
+
+.contact__input textarea {
+    font-size: 16px;
+}
+
+.contact__form ::placeholder {
+    font-size: 16px;
+}
+
+.cards__container-btn {
+    flex-direction: row;
+    justify-content: center;
+}
+
+.cards__container-btn a {
+    margin-left: 7.5px;
+}
+
+.cards__card {
+    width: 450px;
+    height: 400px;
+    margin: 25px 20px;
+}
+
+.footer {
+    height: 250px;
+    align-items: center;
+}
+
+.footer__container-usuario a {
+    font-size: 22px;
+}
+}
